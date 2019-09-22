@@ -4,6 +4,8 @@
 
 # Kafka Twitter
 
+<img src="https://img.shields.io/github/license/teomores/kafka-twitter"/> <img src="https://img.shields.io/github/issues/teomores/kafka-twitter"/>
+
 Repository for the mandatory project for the 2019 **Middleware Technologies** class.
 
 The purpose of  this project is to implement a simplified version of the Twitter social network using **Apache Kafka** to store tweets. Users interact with Twitter using a client that presents a timeline of tweets and allows users to publish new tweets.
