@@ -1,0 +1,11 @@
+{
+   "namespace": "model.username",
+   "name": "key",
+   "type": "record",
+   "fields" : [
+     {
+       "name" : "name",
+       "type" : "string"
+     }
+   ]
+}
