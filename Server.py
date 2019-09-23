@@ -20,13 +20,14 @@ BOOTSTRAP_SERVERS = 'localhost:9092' # this will be distributed...
 SCHEMA_REGISTRY_URL = 'http://127.0.0.1:8081'
 KEY_SCHEMA = avro.loads(open('key_schema.avsc', 'r', newline='').read())
 VALUE_SCHEMA = avro.loads(open('tweet_avro_schema.avsc', 'r', newline='').read())
-WINDOW_LEN = 30
-STREAMING_WINDOW_SECONDS = 30
+WINDOW_LEN = 30 # this tells how many messages will be shown in the "Read Messages"
+STREAMING_WINDOW_SECONDS = 30 # this tells the window of time for the messages shown in "Streaming"
 
 # Subscription URL
 @app.route('/users/id', methods=['POST'])
 def subscribe():
     id = request.form['id']
+    # TODO: this is not necessary actually...
     # create consumer and producer
     c = AvroConsumer(
         {

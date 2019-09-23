@@ -8,6 +8,7 @@ setup(
    version='1.0',
    description='A simple version of the famous social network made with Apache Kafka',
    license="Apache 2.0",
+   url="https://github.com/teomores/kafka-twitter",
    long_description=description,
    author='Matteo Moreschini',
    author_email='matmoresc@gmail.com',

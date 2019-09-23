@@ -23,7 +23,7 @@ class StreamingPage(tk.Frame):
         self.msg_to_show = []
         # user creation
         self.user_id = None
-        self.streaming_url = 'http://10.0.0.17:5000/tweets/streaming' #'http://10.0.0.17:5000/tweets/streaming'
+        self.streaming_url = 'http://127.0.0.1:5000/tweets/streaming' #'http://10.0.0.17:5000/tweets/streaming'
         self.n_times_shown = 0 # we'll use this to trigger the creation of the User at start
         self.is_first_req = True # we'll use it to start the thread: threads cannot be restarted!
         self.new_stream_req = False # if new request, abort previous stream
@@ -142,7 +142,7 @@ class StreamingPage(tk.Frame):
             print('STREAMING FINITO!')
 
     def _display_msg(self): # _get_msg_list rescheduled
-        if self.is_shown == True: # altrimenti non ha senso che continui a fare richieste
+        if self.is_shown: # altrimenti non ha senso che continui a fare richieste
             self._destroy_msg_list()
             for m in self.msg_to_show:
                 self.msg_list.insert('end',m)
