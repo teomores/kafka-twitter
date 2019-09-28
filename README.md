@@ -29,7 +29,7 @@ In this paragraph, we'll see all the steps needed to get the project up and runn
 
 ### Installing
 #### 1. Local Setup
-This is the basic setup if you want to run the application on a single machine. In this case your machine will host the client, the AppServer and both Kafka and Zookeeper. If you want to run the application in a distributed scenario, jump to the [*this section*](####2.-distributed-setup).
+This is the basic setup if you want to run the application on a single machine. In this case your machine will host the client, the AppServer and both Kafka and Zookeeper. If you want to run the application in a distributed scenario, jump to the next section.
 
 1. First of all, you need **Apache Kafka**. In order to do so, just follow the simple instructions provided on the [Confluent Platform Quick Start](https://docs.confluent.io/current/quickstart/ce-quickstart.html#ce-quickstart) page. In a few minutes you should be able download and setup all you need; at that point just open your favorite terminal and run:
 ```console
