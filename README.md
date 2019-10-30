@@ -1,10 +1,10 @@
 <p align="center">
-<img height=180px src="https://github.com/tmscarla/kafka-twitter/blob/master/logo.jpg?raw=true"/>
+<img height=180px src="https://github.com/teomores/kafka-twitter/blob/master/logo.jpg"/>
 </p>
 
 # Kafka Twitter
 
-<img src="https://img.shields.io/github/license/teomores/kafka-twitter"/> <img src="https://img.shields.io/github/issues/teomores/kafka-twitter"/>
+<img src="https://img.shields.io/github/license/teomores/kafka-twitter"/> <img src="https://img.shields.io/github/issues/teomores/kafka-twitter"/> <img src="https://img.shields.io/github/stars/teomores/kafka-twitter"/> 
 
 Repository for the mandatory project for the 2019 **Middleware Technologies** class.
 
