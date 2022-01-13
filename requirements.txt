@@ -42,7 +42,7 @@ murmurhash==1.0.2
 numpy==1.16.2
 pandas==0.23.4
 patsy==0.5.1
-Pillow==6.1.0
+Pillow==9.0.0
 plac==0.9.6
 preshed==2.0.1
 python-dateutil==2.7.3
